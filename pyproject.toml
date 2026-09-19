@@ -7,7 +7,9 @@ authors = [
     { name = "Arif", email = "arifuzzaman.badhon1@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "ollama>=0.6.2",
+]
 
 [project.scripts]
 dockerfile-generation-using-local-llms-beginner = "dockerfile_generation_using_local_llms_beginner:main"
